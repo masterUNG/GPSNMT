@@ -22,6 +22,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
      * The desired interval for location updates. Inexact. Updates may be more or less frequent.
      */
     private static final long UPDATE_INTERVAL = 120000; // Every 2 Minutes.
+//    private static final long UPDATE_INTERVAL = 3000; // Every 3 Sec
 
     /**
      * The fastest rate for active location updates. Updates will never be more frequent
